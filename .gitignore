@@ -1,0 +1,52 @@
+## Defaults
+__pycache__
+.idea
+.DS_Store
+.deps
+.docs
+.env
+.env.hardhat
+.env.foundry
+.secrets
+node_modules
+venv
+
+# Build output
+/cache-hh
+build
+export
+**/artifacts
+.openzeppelin
+typechain
+slither-audit.txt
+slither
+
+# Dispute payloads
+*_dispute.json
+
+# Test output
+coverage
+coverage.json
+lcov.info
+
+# Running output
+gas-report.txt
+gasReporterOutput.json
+addresses.json
+blockchain_db
+yarn-error.log
+broadcast
+
+# deployments
+deployments/localhost
+deployments/mainnetForkRemote
+
+# bin
+bin
+
+
+# foundry
+/out
+/zkout
+/cache-forge
+/transactions
